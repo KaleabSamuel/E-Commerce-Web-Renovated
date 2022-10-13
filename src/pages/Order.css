@@ -1,0 +1,17 @@
+#OrderForm{
+    margin-left: 10em;
+    font-size: larger;
+    font-weight: bolder;
+}
+#OrderText{
+    background-color: rgb(90, 184, 193);
+    font-weight: bolder;
+}
+#ProfileSendbtn{
+    margin-left: 20px;
+    background-color: #2C2D29;
+    color: white;
+    width: 3em;
+    font-size: larger;
+    cursor: pointer;
+}

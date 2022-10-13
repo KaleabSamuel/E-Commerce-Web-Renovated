@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input, button{
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #aac193;
+}
+
+#bigger-form{
+  display: block;
+  position: relative;
+}
+
+#bigger-form:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 1;
+  background-color: linear-gradient(to bottom right, #aac193, #333);
+}
+
+#bigger-form .form-inner{
+  position: relative;
+  display: block;
+  background-color: #FFF;
+  padding: 30px;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+#bigger-form.form-inner h2{
+  color:#333;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#NewToanywhere{
+  text-align: center;
+}
+
+#NewToanywhere:hover{
+  color:#aac193
+}
+
+#createAccount{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#bigger-form .form-inner .form-group{
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.form-inner .form-group label{
+  display: block;
+  color: #333;
+  font-size: 15px;
+  /* margin-bottom: 5px; */
+  transition: 0.4s;
+}
+
+.form-inner .form-group:focus-within label{
+  color: #9abe76;
+}
+
+#bigger-form .form-inner .form-group input{
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: rgb(211, 203, 203);
+  border-radius: 10px;
+  transition: 0.4s; 
+}
+
+#bigger-form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+#bigger-form .form-inner input[type='submit']{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #787, #333);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#toSignU{
+  margin-bottom: 7px;
+  right: 10px;
+}
+
+#toSignI{
+  margin-left: 100px;
+  color: green;
+  text-decoration: none;
+}
+
+#bigger-form .form-inner input[type='submit']:hover{
+  background-position: 100% 0%;
+}
+
+#name{
+  margin-top: 25px;
+}
+

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.faqContainer{
+        width: 90vw;
+        height: 50vh;
+        padding: 50px;
+        margin: 7%;
+        font-size: xx-large;
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 70px;
+        background: #9dbf90;
+        box-shadow: inset 37px 17px 40px #fff9f9,
+                    inset -37px -17px 42px #ffffff;
+    }
+#faq{
+        font-size: larger;
+        padding-top:40px;
+        padding-left: 70px;
+        text-align: center;
+    }
+#question{
+        background-color: rgba(66, 155, 87, 0.3);
+        color: rgb(28, 45, 4);
+        text-align: center;
+        border-radius: 70px;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 10px #797979,
+                 -5px -5px 10px #ffffff;
+    }
+#text{
+        background-color: rgba(112, 250, 144, 0.6); 
+        color: rgb(34, 20, 3);  
+        display: none;
+        text-align: center;
+        margin-left: 50px;
+        border-radius: 60px;
+        background: linear-gradient(100deg, #edf9af, #a8fff1);
+        box-shadow:  35px 35px 70px #5a5a5a,
+                 -35px -35px 70px #ffffff;
+    
+    }
+#question:hover > #text{
+        display: block;
+        text-decoration: underline;
+        cursor: pointer;
+}
+  
+/* For Tablet View */
+@media screen and (max-width: 920px){
+    .Container{
+        height: 100vh;
+    }
+    #text{
+        display: block;
+    }   
+}
+
+/* mobile view */
+@media (max-width:480px){
+    .Container{
+        height: 200vh;
+    }
+    #text{
+        display: block;
+    } 
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#aboutContainer{ 
+    border-radius: 82px;
+    background: #e0e0e0;
+    box-shadow: inset 37px 37px 42px #bebebe,
+                inset -37px -37px 42px #ffffff;
+    width: 80vw;
+    height: 50vh;
+    padding: 50px;
+    margin: 7%;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    color: #364c0e;
+}
+h1,h3{
+    font-family:'Times New Roman', Times, serif;
+}
+#anywhere a{
+    font-weight: bolder;
+    color: #778f03;
+    font-style: italic;
+}
+
+#anywhere a:hover{
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+@media(max-width: 800px){
+    #container{
+        height: 60vh;
+    }
+}
+@media(max-width: 600px){
+    #container{
+        height: 70vh;
+    }
+}
+@media(max-width: 500px){
+    #container{
+        height: 80vh;
+    }
+}

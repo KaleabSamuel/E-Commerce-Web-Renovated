@@ -1,0 +1,91 @@
+
+#textAreaContactus{
+    width: 20em;
+    height: 7em;
+}
+
+#sendContactUs{
+    width: 140px;
+    height: 35px;
+    text-align: center;
+}
+#sendContactUs,#fnameContact,#lnameContact,#emailContact,#textAreaContactus{
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #fff;
+	margin-bottom: 0.8%;
+	border: 1px solid #ccc;
+	padding: 1.2%;
+	color: #555;
+	font: 90% Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+}
+#sendContactUs:focus{
+    color: #00ff62;
+    background-color: #555;
+    border: 3px solid #43D1AF;
+}
+#sendContactUs:hover{
+    color: #040404;
+    background-color: rgb(227, 216, 216);
+
+}
+#fnameContact:focus,#lnameContact:focus,#emailContact:focus,#textAreaContactus:focus{
+    box-shadow: 0 0 5px #43D1AF;
+	padding: 1.5%;
+	border: 1px solid #43D1AF;
+}
+#contactContainer{
+   padding-top: 20px;
+   display: flex;
+   flex-direction: column;
+   margin: 4%;
+   justify-content: center;
+   font-size: larger;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-radius: 20px;
+   background: #BFCEAF;
+   box-shadow: 35px 35px 100px #000000,
+               -35px -35px 100px #ffffff;
+}
+#get,#forms,p{
+    text-align: center;
+}
+#get{
+    font-size: 30px;
+    color: rgba(1, 96, 61, 0.7);
+    text-decoration: underline double;
+}
+#socials{
+    margin: 4%;
+    padding-top: 20px;
+    background: #BFCEAF;
+    backdrop-filter: blur( 100% );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    text-align: center;       
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color:rgb(80, 78, 78)
+}
+#h3follow{
+    text-decoration: underline double;
+}
+.contactusLinks{
+    padding: 10px;
+    margin: 20px;
+}
+.contactusLinks a{
+    padding: 10px;
+}
+.contactusLinks a:hover, .contactusLinks a:focus{
+    color: rgb(197, 181, 9);
+}
